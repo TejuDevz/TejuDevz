@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Teju Devz</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-light bg-light" id="navbar">
+      <div class="logo__container">
+        <img class="nav__image" src="logo.png" alt="" />
+        <div class="nav__headLogo">
+          <h1 class="logo">T</h1>
+          <p class="website__name">Teju Devz</p>
+        </div>
+      </div>
+      <div class="nav_options">
+        <a class="nav-button" href="#navbar">Home</a>
+        <a class="nav-button" href="#about">About Me</a>
+        <a class="nav-button" href="#work">Work</a>
+        <a class="nav-button" href="#contact">Contact</a>
+        <img
+          onclick="drop()"
+          class="nav_bars"
+          src="https://cdn.iconscout.com/icon/premium/png-512-thumb/mobile-menu-14-897144.png"
+          alt=""
+        />
+      </div>
+    </nav>
+    <div class="dropdown">
+      <center>
+        <a class="nav-button-drop" href="#navbar">Home</a>
+        <br />
+        <br />
+        <a class="nav-button-drop" href="#about">About Me</a>
+        <br />
+        <br />
+        <a class="nav-button-drop" href="#work">Work</a>
+        <br />
+        <br />
+        <a class="nav-button-drop" href="#contact">Contact</a>
+      </center>
+    </div>
+    <div class="main">
+      <div id="home">
+        <div class="home">
+          <div class="home__left">
+            <div class="home__leftIcon">
+              <center>
+                <img
+                  class="home__bracketImage"
+                  src="https://findicons.com/files/icons/2779/simple_icons/4096/codeschool_4096_black.png"
+                  alt=""
+                />
+                <h1>SKILLS</h1>
+                <img
+                  class="skill_images"
+                  src="https://www.freepnglogos.com/uploads/html5-logo-png/html5-logo-devextreme-multi-purpose-controls-html-javascript-3.png"
+                  alt=""
+                />
+                <br />
+                <img
+                  class="react"
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png"
+                  alt=""
+                />
+              </center>
+            </div>
+          </div>
+          <div class="home__right">
+            <center>
+              <div class="home__rightContainer">
+                <h1>TejuDevz</h1>
+                <h4>Freelancer</h4>
+                <img
+                  class="home__rightMountain"
+                  src="https://www.jing.fm/clipimg/full/11-113014_snowy-mountain-transparent-clip-art-image-clipart-mountains.png"
+                  alt=""
+                />
+              </div>
+            </center>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="about">
+          <div id="about" class="about__header">
+            <h1>About Me</h1>
+            <h3>Find Every Thing About Me</h3>
+          </div>
+          <div class="about__info">
+            <center>
+              <div class="about__infoBasics">
+                <h2>Who Am I?</h2>
+                <p>
+                  My Name is Viswatej, I'm a 14 year old computer enthusiast. I
+                  am Web Developer and a web designer living in Hyderabad,
+                  India.
+                  <br />
+                  <br />
+                  I am still a beginner with 8 months of experience in HTML,
+                  CSS, JavaScript, React and a little experience in Web
+                  design,Bootstrap <br />MongoDB, Express, node.js. I spend time
+                  creating projects and learning other languages. I am Currently
+                  a Freelancer at upwork and<br />
+                  am open for Larger freelancing Projects And Jobs.
+                  <br />
+                  <br />
+                  I have a youtube Channel Named Learning streak where i show my
+                  products in detail and have some basic Tutorials.
+                </p>
+              </div>
+            </center>
+          </div>
+        </div>
+      </div>
+      <div id="work">
+        <div class="work">
+          <div class="work__heading">
+            <h1>My Work</h1>
+          </div>
+          <p>All these Products are made by me</p>
+          <div class="work__main">
+            <div class="work__project">
+              <img
+                class="work__projectImage"
+                src="https://cdn.icon-icons.com/icons2/2119/PNG/512/google_icon_131222.png"
+                alt=""
+              />
+              <div class="work__projectInfo">
+                <h2>
+                  Google
+                  <h6>By Me</h6>
+                </h2>
+              </div>
+              <a class="link" href="https://clone-db9f2.web.app/">Link</a>
+            </div>
+            <div class="work__project">
+              <img
+                class="work__projectImage"
+                src="https://www.acisolutions.net/wp-content/uploads/2019/09/amazon-logo-vector-png-amazon-logo-vector-512.png"
+                alt=""
+              />
+              <div class="work__projectInfo">
+                <h2>
+                  Amazon
+                  <h6>By Me</h6>
+                </h2>
+              </div>
+              <a class="link" href="https://clone-34e0d.web.app/">Link</a>
+            </div>
+            <div class="work__project">
+              <img
+                class="work__projectImage"
+                src="https://is3-ssl.mzstatic.com/image/thumb/Purple114/v4/14/ef/5f/14ef5f1d-60d4-6a26-b92d-0e3d5fbbfb5c/source/512x512bb.jpg"
+                alt=""
+              />
+              <div class="work__projectInfo">
+                <h2>
+                  Image Identifier
+                  <h6>By Me</h6>
+                </h2>
+              </div>
+              <a
+                class="link"
+                href="https://tejudevz.github.io/Image-identifier1/"
+                >Link</a
+              >
+            </div>
+            <div class="work__project">
+              <img
+                class="work__projectImage"
+                src="https://cdn3.iconfinder.com/data/icons/communication-media-malibu-vol-1/128/mobile-messaging-512.png"
+                alt=""
+              />
+              <div class="work__projectInfo">
+                <h2>
+                  Chat app
+                  <h6>By Me</h6>
+                </h2>
+              </div>
+              <a
+                class="link"
+                href="https://tejudevz.github.io/Chat-app/login.htm"
+                >Link</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="contact">
+        <div class="contact">
+          <div class="contact__header">
+            <h1>Contact Me</h1>
+          </div>
+          <div class="contact__main">
+            <p>Pleas enter the title</p>
+            <input class="form-control" id="title" />
+            <p>Please enter what you want to send me</p>
+            <textarea id="message" class="input" row="4" cols="50"></textarea>
+            <br />
+            <br />
+            <button
+              onclick="send()"
+              class="btn btn-primary"
+              id="contact__button"
+            >
+              Send
+            </button>
+            <p id="result"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <footer>© 2020 TejuDevz</footer>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
